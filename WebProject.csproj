@@ -108,9 +108,15 @@
     <Compile Include="Migrations\202203251729134_myfirsttest.designer.cs">
       <DependentUpon>202203251729134_myfirsttest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203251820001_myapptest.cs" />
+    <Compile Include="Migrations\202203251820001_myapptest.designer.cs">
+      <DependentUpon>202203251820001_myapptest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Depertment.cs" />
     <Compile Include="Models\Project.cs" />
     <Compile Include="Models\ProjectStatus.cs" />
+    <Compile Include="Models\Semester.cs" />
     <Compile Include="Models\Userdetails.cs" />
     <Compile Include="Models\WebContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,6 +138,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202203251729134_myfirsttest.resx">
       <DependentUpon>202203251729134_myfirsttest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203251820001_myapptest.resx">
+      <DependentUpon>202203251820001_myapptest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

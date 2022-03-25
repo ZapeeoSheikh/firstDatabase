@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebProject.Models
 {
-    public class Project
+    public class Project  // Table 5 
     {
         public int Id { get; set; }
         public string Name { get; set; }

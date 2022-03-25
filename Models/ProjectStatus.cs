@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebProject.Models
 {
-    public class ProjectStatus
+    public class ProjectStatus  // table 4
     {
         public int Id { get; set; } 
         public string ProjectTitle { get; set; }    
@@ -13,5 +13,6 @@ namespace WebProject.Models
         public int Status { get; set; }
 
         public int Cost { get; set; }
+        public int Marks { get; set; }
     }
 }
